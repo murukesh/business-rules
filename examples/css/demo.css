@@ -44,6 +44,18 @@
   margin-right: 10px;
 }
 
+.rule .field.key {
+  margin-right: 10px;
+}
+
+.rule .field.key {
+  display: none;
+}
+
+.rule.map-type .field.key {
+  display: inline-block;
+}
+
 .action-buttons {
   margin: 20px 0;
 }

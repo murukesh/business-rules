@@ -23,7 +23,7 @@ var conditions, actions, nameField, ageField, occupationField, submit;
   function initializeConditions() {
     conditions.conditionsBuilder({
       fields: [
-        {label: "Name", name: "nameField", operators: [
+        {label: "Name", name: "nameField", type: "map", options: occupationOptions,operators: [
           {label: "is present", name: "present", fieldType: "none"},
           {label: "is blank", name: "blank", fieldType: "none"},
           {label: "is equal to", name: "equalTo", fieldType: "text"},
